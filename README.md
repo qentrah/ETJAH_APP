@@ -1,3 +1,52 @@
+# Etjah
+
+Next.js application with authentication, Prisma data models, and email templates.
+
+[Source](https://github.com/qentrah/ETJAH_APP) · [Issues](https://github.com/qentrah/ETJAH_APP/issues) · [Project directory](https://github.com/qentrah/.github/blob/main/profile/PROJECTS.md)
+
+## Technology
+
+Next.js, React, TypeScript.
+
+## Get started
+
+```sh
+git clone https://github.com/qentrah/ETJAH_APP.git
+cd ETJAH_APP
+```
+
+Requires Node.js and pnpm.
+
+```sh
+pnpm install
+pnpm dev
+```
+
+## Available commands
+
+| Command | Purpose |
+| --- | --- |
+| `pnpm dev` | Development server |
+| `pnpm start` | Start the configured application |
+| `pnpm build` | Build the project |
+| `pnpm lint` | Check lint rules |
+
+## Configuration
+
+Use [`.env.example`](./.env.example) as the configuration template. Supply your own service values in the local environment file.
+
+## Project structure
+
+- [`app`](./app)
+- [`components`](./components)
+
+## Documentation
+
+- [LICENSE.md](./LICENSE.md)
+
+<details>
+<summary>Existing setup notes and credits</summary>
+
 <a href="https://next-auth-roles-template.vercel.app">
   <img alt="Next Template" src="public/_static/og.jpg">
   <h1 align="center">Next Auth Roles Template</h1>
@@ -142,3 +191,5 @@ Created by [@miickasmt](https://twitter.com/miickasmt) in 2023, released under t
 ## Credits
 
 Thanks to [Hosna Qasmei](https://twitter.com/hqasmei) for part of the dashboard sidebar code.
+
+</details>
